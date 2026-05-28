@@ -1,0 +1,6 @@
+{
+  "name": "AuraSound Pro",
+  "description": "High-converting landing page for AuraSound Pro wireless earbuds with premium interactive features.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
