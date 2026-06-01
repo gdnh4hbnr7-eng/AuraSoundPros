@@ -561,13 +561,15 @@ export default function App() {
             </div>
 
             {/* Direct Add to Cart Action */}
-            <button 
-              onClick={handleCheckout}
-              className="mt-8 w-full py-4 rounded-2xl bg-brand-blue hover:bg-blue-600 border border-brand-blue active:scale-[0.98] text-white font-black text-base uppercase tracking-wider transition-all cursor-pointer shadow-[0_4px_25px_rgba(37,99,235,0.4)] hover:shadow-[0_4px_35px_rgba(37,99,235,0.6)]"
+            <a 
+              href="https://buy.stripe.com/28E28sebv5S22uW575cV200"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="mt-8 w-full py-4 rounded-2xl bg-brand-blue hover:bg-blue-600 border border-brand-blue active:scale-[0.98] text-white font-black text-base uppercase tracking-wider transition-all cursor-pointer shadow-[0_4px_25px_rgba(37,99,235,0.4)] hover:shadow-[0_4px_35px_rgba(37,99,235,0.6)] flex items-center justify-center text-center"
               id="cta-buy-main"
             >
               Add to Cart – $129.99
-            </button>
+            </a>
 
             {/* Mini billing features */}
             <div className="mt-4 flex flex-wrap justify-center gap-x-4 gap-y-2 text-[11px] font-semibold text-slate-400 font-mono">
@@ -626,13 +628,15 @@ export default function App() {
             Order your AuraSound Pro earbuds today risk-free. If you are not entirely satisfied with the acoustics, return them anytime within 30 days. No questions asked.
           </p>
           
-          <button 
-            onClick={() => scrollToSection("pricing")}
-            className="mt-10 px-8 py-4 rounded-full font-black text-sm uppercase tracking-wider bg-white text-brand-blue hover:bg-slate-50 border border-white active:scale-95 shadow-2.5xl transition-all cursor-pointer flex items-center gap-2"
+          <a 
+            href="https://buy.stripe.com/28E28sebv5S22uW575cV200"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="mt-10 px-8 py-4 rounded-full font-black text-sm uppercase tracking-wider bg-white text-brand-blue hover:bg-slate-50 border border-white active:scale-95 shadow-2.5xl transition-all cursor-pointer flex items-center justify-center gap-2"
           >
             <span>Claim My Launch Discount Now</span>
             <ArrowRight className="w-4 h-4 stroke-[3px]" />
-          </button>
+          </a>
         </div>
       </section>
 
@@ -667,12 +671,14 @@ export default function App() {
           <span className="text-[9px] text-red-400 capitalize font-mono leading-none font-bold animate-pulse">Running Out!</span>
           <span className="text-base font-black text-white leading-tight mt-0.5">$129.99</span>
         </div>
-        <button 
-          onClick={() => scrollToSection("pricing")}
-          className="flex-1 py-3.5 rounded-xl font-bold text-xs uppercase bg-brand-blue text-white transition-transform active:scale-[0.97] shadow-lg flex items-center justify-center gap-1.5 cursor-pointer ml-auto"
+        <a 
+          href="https://buy.stripe.com/28E28sebv5S22uW575cV200"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="flex-1 py-3.5 rounded-xl font-bold text-xs uppercase bg-brand-blue text-white transition-transform active:scale-[0.97] shadow-lg flex items-center justify-center gap-1.5 cursor-pointer ml-auto text-center"
         >
           <span>Claim Save $70 Deal</span>
-        </button>
+        </a>
       </div>
 
       {/* Simulated purchase success trigger drawer overlay */}

@@ -64,23 +64,27 @@ export default function UINavbar() {
               <span>Launch Deal</span>
               <span className="text-brand-gold font-bold font-mono">$129.99</span>
             </button>
-            <button 
-              onClick={() => scrollToSection("pricing")}
-              className="px-6 py-2.5 rounded-full text-xs font-bold uppercase tracking-wider bg-brand-blue hover:bg-blue-600 active:scale-95 text-white transition-all shadow-[0_4px_15px_rgba(37,99,235,0.4)] hover:shadow-[0_4px_25px_rgba(37,99,235,0.6)] flex items-center gap-2 cursor-pointer"
+            <a 
+              href="https://buy.stripe.com/28E28sebv5S22uW575cV200"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="px-6 py-2.5 rounded-full text-xs font-bold uppercase tracking-wider bg-brand-blue hover:bg-blue-600 active:scale-95 text-white transition-all shadow-[0_4px_15px_rgba(37,99,235,0.4)] hover:shadow-[0_4px_25px_rgba(37,99,235,0.6)] flex items-center justify-center gap-2 cursor-pointer text-center"
             >
               <ShoppingCart className="w-3.5 h-3.5" />
               <span>Buy Now</span>
-            </button>
+            </a>
           </div>
 
           {/* Hamburger Menu Toggle */}
           <div className="md:hidden flex items-center gap-3">
-            <button 
-              onClick={() => scrollToSection("pricing")}
-              className="px-4 py-2 rounded-full text-xs font-bold bg-brand-blue text-white mr-1 active:scale-95"
+            <a 
+              href="https://buy.stripe.com/28E28sebv5S22uW575cV200"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="px-4 py-2 rounded-full text-xs font-bold bg-brand-blue text-white mr-1 active:scale-95 text-center flex items-center justify-center"
             >
               $129
-            </button>
+            </a>
             <button
               onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
               className="w-10 h-10 rounded-xl bg-white/5 border border-white/10 flex items-center justify-center text-white cursor-pointer hover:bg-white/10 transition-all focus:outline-none"
@@ -129,12 +133,14 @@ export default function UINavbar() {
             </button>
             
             <div className="pt-4 flex flex-col gap-3">
-              <button 
-                onClick={() => scrollToSection("pricing")}
-                className="w-full py-3.5 rounded-xl font-bold bg-brand-blue text-white text-center shadow-lg active:scale-95 transition-transform"
+              <a 
+                href="https://buy.stripe.com/28E28sebv5S22uW575cV200"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="w-full py-3.5 rounded-xl font-bold bg-brand-blue text-white text-center shadow-lg active:scale-95 transition-transform block"
               >
                 Claim Exclusive Discount – $129.99
-              </button>
+              </a>
               <div className="text-center text-xs text-slate-500 font-mono">
                 ⭐ 4.9/5 Rating | Free Shipping Included
               </div>
